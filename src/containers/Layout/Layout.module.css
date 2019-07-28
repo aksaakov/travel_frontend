@@ -1,0 +1,13 @@
+.Content {
+    margin-top: 32px;
+    min-width: 300px;
+}
+.border {
+    width:auto;
+    height: 20px;
+    /*position: absolute;*/
+    background-size: 150px;
+    background-position: center;
+    border-top: 3px solid rgb(207, 0, 25);
+    border-bottom: 3px solid rgb(207, 0, 25);
+}

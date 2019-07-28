@@ -1,0 +1,11 @@
+.TextSection {
+    text-align: center;
+    padding: 0 10% 15px 10%;
+}
+
+@media (min-width: 1000px) {
+    .TextSection {
+        text-wrap: normal;
+        padding: 0 20% 15px 20%;
+    }
+}

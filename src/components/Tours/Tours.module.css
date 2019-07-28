@@ -1,0 +1,22 @@
+.PackagesWrapper {
+    padding-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+/*.Package h1 {*/
+    /*margin: 0;*/
+/*}*/
+
+@media (max-width: 501px) {
+    .PackagesWrapper {
+        justify-content: start;
+        flex-flow: row;
+    }
+}
+

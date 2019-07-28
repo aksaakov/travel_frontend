@@ -1,0 +1,113 @@
+.ToolbarBackground {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /*box-sizing: border-box;*/
+    /*border-bottom: 10px solid #ffd544;*/
+    /*background-position: center;*/
+    /*background-headerImage: linear-gradient(to bottom, rgba(255, 151, 54, 0.36), rgba(164, 159, 221, 0.53));*/
+}
+
+.nav {
+    height: 100%;
+}
+
+.MidSection {
+    text-align: center;
+    color: white;
+    padding-left: 5%;
+    align-items: center;
+    /*padding: 5%;*/
+    align-self: center;
+    /*font-size: 30px;*/
+    /*font-weight: bold;*/
+    /*position: absolute;*/
+}
+
+.buttonContainer {
+    margin-top: 50px;
+    position: relative;
+    animation: fade-slide-down 1s alternate;
+}
+@keyframes fade-slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.Button {
+    /*padding: 20px;*/
+    margin: 0.3em;
+    display:inline-block;
+    padding:0.5em 2em;
+    height: 50px;
+    border:0.16em solid #ffffff;
+    /*margin:0 0.3em 0.3em 0;*/
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:bold;
+    font-size: 80%;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.15s;
+    background-color: rgba(176, 176, 176, 0.22);
+    border-radius: 5px;
+    outline: none;
+}
+
+/*.Button:active{*/
+    /*color: #b0b0b0;*/
+    /*border-color: #b0b0b0;*/
+/*}*/
+
+.Logo {
+    height: 80%;
+}
+
+@media (max-width: 750px) {
+    .ToolbarBackground {
+        display: flow-root;
+    }
+    .MidSection {
+        padding: 80px 0 0 0;
+    }
+    .DesktopOnly {
+        display: none;
+    }
+    .Button{
+        display:block;
+        margin:0.4em auto;
+    }
+}
+@media (min-width: 749px) {
+    .Button:hover {
+        border:0.16em solid #ffffff;
+        cursor: pointer;
+        padding:0.5em 3em;
+    }
+}
+
+.headerImage {
+    z-index: -1;
+    width:100%;
+    height:100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+html {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: inherit;
+}
