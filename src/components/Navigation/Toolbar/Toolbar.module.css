@@ -66,7 +66,13 @@
     border-radius: 5px;
     outline: none;
 }
-
+@media (min-width: 749px) {
+    .Button:hover {
+        border:0.16em solid #ffffff;
+        cursor: pointer;
+        padding:0.8em 2.5em;
+    }
+}
 /*.Button:active{*/
     /*color: #b0b0b0;*/
     /*border-color: #b0b0b0;*/
@@ -80,22 +86,18 @@
     .ToolbarBackground {
         display: flow-root;
     }
+
     .MidSection {
         padding: 80px 0 0 0;
     }
+
     .DesktopOnly {
         display: none;
     }
-    .Button{
-        display:block;
-        margin:0.4em auto;
-    }
-}
-@media (min-width: 749px) {
-    .Button:hover {
-        border:0.16em solid #ffffff;
-        cursor: pointer;
-        padding:0.5em 3em;
+
+    .Button {
+        display: block;
+        margin: 0.4em auto;
     }
 }
 

@@ -1,0 +1,11 @@
+.TourDescription {
+    width: 70%;
+    margin: 20px auto;
+    /*border: 1px solid #eee;*/
+    /*box-shadow: 0 2px 3px #ccc;*/
+    text-align: center;
+    transition: all 0.3s ease-out;
+    z-index: 500;
+    left: calc(50% - 250px);
+}
+

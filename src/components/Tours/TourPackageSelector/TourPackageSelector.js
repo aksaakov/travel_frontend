@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import styles from './Tours.module.css';
-import PackageSelector from './TourSelector/TourSelector';
-import TourOverview from './TourOverview/TourOverview';
+import styles from './TourPackageSelector.module.css';
+import PackageSelector from './TourPackageName/TourPackageName';
+import TourOverview from './TourPackageOverview/TourPackageOverview';
+import TransitioningContainer from "react-transitioning-container";
 
-class Tours extends Component {
+class TourPackageSelector extends Component {
     state = {
         tours: [
             {
@@ -51,15 +52,18 @@ class Tours extends Component {
             pkgDescription = this.state.tours.find(el => el.id === this.state.selectedTourId);
         }
         return (
-            <div>
+            <React.Fragment>
+                <p style={{textAlign: 'center', color: 'white', fontSize: '17px', margin: '0 0 15px 0'}}>Here's our list of <strong>tour packages</strong>. Find the package that suits you best!</p>
                 <section className={styles.PackagesWrapper}>
                     {pkgTypes}
                 </section>
-                <TourOverview packageDescription={pkgDescription !== null ? pkgDescription.description : null}/>
-            </div>
+                {/*<TransitioningContainer duration={300} style={{width: '100%'}}>*/}
+                    <TourOverview packageDescription={pkgDescription !== null ? pkgDescription.description : null}/>
+                {/*</TransitioningContainer>*/}
+            </React.Fragment>
         );
     }
 }
 
 
-export default Tours;
+export default TourPackageSelector;

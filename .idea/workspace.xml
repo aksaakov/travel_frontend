@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5746b441-57cd-43de-aed6-5a0e7f9b61a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/Images/border.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Images/headerImage.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Images/headerImage2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Images/moldova_kishinev.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Logo/Logo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Logo/Logo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavItems/NavItem/NavItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavItems/NavItem/NavItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavItems/NavItems.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavItems/NavItems.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PageComponents/TextSection/TextSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PageComponents/TextSection/TextSection.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tours/TourOverview/TourOverview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tours/TourOverview/TourOverview.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tours/TourSelector/TourSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tours/TourSelector/TourSelector.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tours/Tours.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tours/Tours.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/Layout.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/MainPage/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/MainPage/TourBuilder/TourBuilder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/MainPage/TourBuilder/TourBuilder.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/scroll-context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+    <list default="true" id="5746b441-57cd-43de-aed6-5a0e7f9b61a7" name="Default Changelist" comment="Structure changes,&#10;Added tour destinations,&#10;Implemented axios api consumption to fetch data from the backend">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/d0p4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tours/FullTourDescription/FullTourDescription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tours/FullTourDescription/FullTourDescription.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tours/TourDestinationTile/TourDestination.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tours/TourDestinationTile/TourDestinationTile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tours/TourOverview/TourOverview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageOverview/TourPackageOverview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tours/TourOverview/TourOverview.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageOverview/TourPackageOverview.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tours/TourSelector/TourSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageName/TourPackageName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tours/TourSelector/TourSelector.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageName/TourPackageName.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tours/Tours.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tours/Tours.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageSelector.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/MainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/MainPage/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/MainPage/TourBuilder/TourBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/MainPage/TourBrowser/TourBrowser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/MainPage/TourBuilder/TourBuilder.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/MainPage/TourBrowser/TourBrowser.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,37 +42,43 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="bootstrap" value="1" />
-          <entry key="css" value="28" />
+          <entry key="bootstrap" value="4" />
+          <entry key="css" value="42" />
           <entry key="jpg" value="2" />
-          <entry key="js" value="45" />
+          <entry key="js" value="66" />
           <entry key="rnc" value="1" />
+          <entry key="ts" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="28" />
+          <entry key="CSS" value="42" />
+          <entry key="HTML" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JavaScript" value="45" />
+          <entry key="JavaScript" value="66" />
           <entry key="RNG Compact" value="1" />
+          <entry key="TypeScript" value="4" />
           <entry key="UNKNOWN" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
           <entry key="ESLintLanguageService" value="1" />
+          <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2576" />
-          <entry key="js" value="14017" />
+          <entry key="css" value="3116" />
+          <entry key="js" value="16967" />
+          <entry key="txt" value="179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2576" />
-          <entry key="JavaScript" value="14017" />
+          <entry key="CSS" value="3116" />
+          <entry key="JavaScript" value="16967" />
+          <entry key="PLAIN_TEXT" value="179" />
         </counts>
       </usages-collector>
     </session>
@@ -92,10 +86,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Layout/Layout.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="45" />
+            <state relative-caret-position="428">
+              <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Tours/TourDestinationTile/TourDestinationTile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -104,19 +110,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Layout/Layout.module.css">
+        <entry file="file://$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageSelector.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="523">
+              <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/PageComponents/TextSection/TextSection.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageOverview/TourPackageOverview.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="464" selection-start-line="6" selection-start-column="464" selection-end-line="6" selection-end-column="464" />
+            <state relative-caret-position="92">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -125,75 +134,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/PageComponents/TextSection/TextSection.module.css">
+        <entry file="file://$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageOverview/TourPackageOverview.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Tours/Tours.module.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/MainPage/MainPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.module.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="35" />
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+        <entry file="file://$PROJECT_DIR$/src/containers/MainPage/TourBrowser/TourBrowser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="518">
+              <caret line="62" column="477" selection-start-line="62" selection-start-column="477" selection-end-line="62" selection-end-column="477" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Navigation/NavItems/NavItems.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Tours/FullTourDescription/FullTourDescription.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="-332">
+              <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,8 +171,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -222,39 +189,27 @@
       <find>start</find>
       <find>smooth</find>
       <find>shad</find>
+      <find>posts</find>
+      <find>simple</find>
+      <find>usest</find>
+      <find>selectedPo</find>
+      <find>fit-content</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/containers/MainPage/TourBuilder/Packages</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="aksaakov &lt;a.cealicov@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Navigation/NavItems/NavItem/NavItem.js" />
-        <option value="$PROJECT_DIR$/src/components/Navigation/NavItems/NavItems.js" />
-        <option value="$PROJECT_DIR$/src/components/Navigation/NavItems/NavItem/NavItem.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Navigation/Toolbar/Slider/Slider.js" />
-        <option value="$PROJECT_DIR$/src/components/Logo/Logo.js" />
-        <option value="$PROJECT_DIR$/src/components/Navigation/Toolbar/HeaderImage/HeaderImage.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Navigation/Toolbar/HeaderImage/HeaderImage.js" />
-        <option value="$PROJECT_DIR$/src/containers/Layout/Layout.css" />
-        <option value="$PROJECT_DIR$/src/components/Logo/Logo.module.css" />
-        <option value="$PROJECT_DIR$/src/components/PageComponents/TourBuilder/Packages/Packages.js" />
-        <option value="$PROJECT_DIR$/src/components/PageComponents/TourBuilder/Packages/Packages.module.css" />
-        <option value="$PROJECT_DIR$/src/components/PageComponents/TourBuilder/TourBuilder.module.css" />
-        <option value="$PROJECT_DIR$/src/components/PageComponents/TourBuilder/PackageOverview/PackageInfo.module.css" />
-        <option value="$PROJECT_DIR$/src/components/PageComponents/TourBuilder/PackageOverview/PackageOverview.js" />
-        <option value="$PROJECT_DIR$/src/components/PageComponents/TourBuilder/TourBuilder.js" />
-        <option value="$PROJECT_DIR$/src/components/PageComponents/TourBuilder/Packages/Package/Package.js" />
-        <option value="$PROJECT_DIR$/src/components/PageComponents/TourBuilder/Packages/Package/Package.module.css" />
-        <option value="$PROJECT_DIR$/src/containers/MainPage/TourBuilder/Packages/Packages.js" />
-        <option value="$PROJECT_DIR$/src/components/Package/Package.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Package/Package.js" />
-        <option value="$PROJECT_DIR$/src/components/Package/TourPackage.js" />
-        <option value="$PROJECT_DIR$/src/components/TourPackage/TourPackage.js" />
         <option value="$PROJECT_DIR$/src/containers/MainPage/TourBuilder/TourBuilder.module.css" />
         <option value="$PROJECT_DIR$/src/components/TourPackage/TourPackage.module.css" />
         <option value="$PROJECT_DIR$/src/components/TourPackage/TourPackages.js" />
@@ -269,21 +224,43 @@
         <option value="$PROJECT_DIR$/src/components/Tours/TourOverview/TourOverview.module.css" />
         <option value="$PROJECT_DIR$/src/context/auth-context.js" />
         <option value="$PROJECT_DIR$/src/components/Tours/TourOverview/TourOverview.js" />
-        <option value="$PROJECT_DIR$/src/components/Tours/TourSelector/TourSelector.js" />
-        <option value="$PROJECT_DIR$/src/containers/MainPage/TourBuilder/TourBuilder.js" />
         <option value="$PROJECT_DIR$/src/context/scroll-context.js" />
-        <option value="$PROJECT_DIR$/src/components/Tours/Tours.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/PageComponents/TextSection/TextSection.module.css" />
         <option value="$PROJECT_DIR$/src/components/Navigation/NavItems/NavItems.module.css" />
         <option value="$PROJECT_DIR$/src/containers/Layout/Layout.js" />
         <option value="$PROJECT_DIR$/src/containers/Layout/Layout.module.css" />
-        <option value="$PROJECT_DIR$/src/containers/MainPage/MainPage.js" />
         <option value="$PROJECT_DIR$/src/components/PageComponents/TextSection/TextSection.js" />
-        <option value="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js" />
-        <option value="$PROJECT_DIR$/src/components/Tours/Tours.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.module.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TravelPackages.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TravelPackageOverview/TravelPackageOverview.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TravelAttractions/TravelAttractions.css" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TravelAttractions/TravelAttractions.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TravelPackages/TravelPackages.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TourSelector/TourSelector.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageName/TourPackageName.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/Tours.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/Tours.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Tours/Tour/TravelAttractions.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/Tour.js" />
+        <option value="$PROJECT_DIR$/src/containers/MainPage/TourBuilder/TourBuilder.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TourDestination/TourDestination.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TourDestination/TourDestination.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageSelector.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TourDestinationTile/TourDestination.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/MainPage/TourBrowser/TourBrowser.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Tours/FullTourDescription.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/FullTourDescription/FullTourDescription.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/MainPage/MainPage.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/FullTourDescription/FullTourDescription.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TourDestinationTile/TourDestinationTile.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageOverview/TourPackageOverview.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageOverview/TourPackageOverview.js" />
+        <option value="$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageSelector.js" />
+        <option value="$PROJECT_DIR$/src/containers/MainPage/TourBrowser/TourBrowser.js" />
       </list>
     </option>
   </component>
@@ -335,40 +312,19 @@
               <item name="travel" type="b2602c69:ProjectViewProjectNode" />
               <item name="travel" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react-parallax" type="462c0819:PsiDirectoryNode" />
+              <item name="react-transitioning-container" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travel" type="b2602c69:ProjectViewProjectNode" />
               <item name="travel" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react-parallax" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react-parallax" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="kitchensink" type="462c0819:PsiDirectoryNode" />
+              <item name="react-transitioning-container" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travel" type="b2602c69:ProjectViewProjectNode" />
               <item name="travel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="Images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travel" type="b2602c69:ProjectViewProjectNode" />
@@ -382,14 +338,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
-              <item name="NavItems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travel" type="b2602c69:ProjectViewProjectNode" />
@@ -425,14 +373,40 @@
               <item name="travel" type="b2602c69:ProjectViewProjectNode" />
               <item name="travel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Tours" type="462c0819:PsiDirectoryNode" />
+              <item name="FullTourDescription" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Tours" type="462c0819:PsiDirectoryNode" />
+              <item name="TourDestinationTile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Tours" type="462c0819:PsiDirectoryNode" />
+              <item name="TourPackageSelector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Tours" type="462c0819:PsiDirectoryNode" />
+              <item name="TourPackageSelector" type="462c0819:PsiDirectoryNode" />
+              <item name="TourPackageOverview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travel" type="b2602c69:ProjectViewProjectNode" />
               <item name="travel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travel" type="b2602c69:ProjectViewProjectNode" />
@@ -445,7 +419,9 @@
               <item name="travel" type="b2602c69:ProjectViewProjectNode" />
               <item name="travel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="MainPage" type="462c0819:PsiDirectoryNode" />
+              <item name="TourBrowser" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -462,14 +438,16 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/Images" />
-      <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/containers/MainPage/TourBuilder/Package" />
-      <recent name="$PROJECT_DIR$/src/containers/MainPage" />
+      <recent name="$PROJECT_DIR$/src/components/Tours/FullTourDescription" />
+      <recent name="$PROJECT_DIR$/src/components/Tours/TourPackageSelector" />
+      <recent name="$PROJECT_DIR$/src/components/Tours/Tour" />
+      <recent name="$PROJECT_DIR$/src/components/Tours" />
+      <recent name="$PROJECT_DIR$/src/components/Tours/TourSelector" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -499,12 +477,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563618239910</updated>
-      <workItem from="1563618241416" duration="81548000" />
+      <workItem from="1563618241416" duration="108536000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1564336142177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564336142177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81548000" />
+    <option name="totallyTimeSpent" value="108536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
@@ -514,10 +500,12 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1800948" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32982087" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.20969442" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32982087" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982087" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32982087" />
@@ -555,6 +543,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Structure changes,&#10;Added tour destinations,&#10;Implemented axios api consumption to fetch data from the backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Structure changes,&#10;Added tour destinations,&#10;Implemented axios api consumption to fetch data from the backend" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/NavItems/NavItem/NavItem.module.css">
@@ -611,29 +604,12 @@
     <entry file="file://$PROJECT_DIR$/src/containers/MainPage/TourBuilder/Packages/Package/Package.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/MainPage/TourBuilder/TourBuilder.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tours/TourSelector/TourSelector.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageName/TourPackageName.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tours/TourOverview/TourOverview.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="http://localhost:3000/Users/Home/Projects/travel/webpack/bootstrap">
-      <provider selected="true" editor-type-id="httpFileEditor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -645,54 +621,10 @@
     <entry file="http://localhost:3000/static/js/main.chunk.js">
       <provider selected="true" editor-type-id="httpFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tours/TourOverview/TourOverview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tours/TourSelector/TourSelector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/context/scroll-context.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/MainPage/TourBuilder/TourBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tours/Tours.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -751,33 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/MainPage/MainPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tours/Tours.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PageComponents/TextSection/TextSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="464" selection-start-line="6" selection-start-column="464" selection-end-line="6" selection-end-column="464" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Layout/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -798,29 +703,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Tours/TourDestinationTile/TourDestination.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tours/Tours.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PageComponents/TextSection/TextSection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="138">
+          <caret line="6" column="464" selection-start-line="6" selection-start-column="464" selection-end-line="6" selection-end-column="464" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="253">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageSelector.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageName/TourPackageName.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tours/TourDestinationTile/TourDestination.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/MainPage/TourBrowser/TourBrowser.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="276">
+          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://localhost:3000/static/js/bundle.js">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="http://localhost:3000/Users/Home/Projects/travel/webpack/bootstrap">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tours/FullTourDescription/FullTourDescription.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/MainPage/MainPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tours/FullTourDescription/FullTourDescription.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-332">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageOverview/TourPackageOverview.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-transitioning-container/dist/styles.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-transitioning-container/dist/useResizeListener.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-transitioning-container/dist/TransitioningContainer.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="108" selection-start-line="7" selection-start-column="99" selection-end-line="7" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tours/TourDestinationTile/TourDestinationTile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageOverview/TourPackageOverview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tours/TourPackageSelector/TourPackageSelector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/MainPage/TourBrowser/TourBrowser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="62" column="477" selection-start-line="62" selection-start-column="477" selection-end-line="62" selection-end-column="477" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

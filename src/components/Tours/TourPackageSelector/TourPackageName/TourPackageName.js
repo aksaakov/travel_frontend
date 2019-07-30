@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './TourSelector.module.css';
+import styles from './TourPackageName.module.css';
 
-const tourSelector = (props) => (
+const tourPackageName = (props) => (
     <article className={styles.Package} onClick={props.clicked}>
         <h1>{props.title}</h1>
     </article>
 );
 
-export default tourSelector;
+export default tourPackageName;

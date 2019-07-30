@@ -19,7 +19,7 @@ class Toolbar extends Component {
 
         return (
             <header>
-                <Parallax bgImage={headerPic} bgStyle={{position: 'absolute'}} strength={150} style={{height: '450px'}}>
+                <Parallax bgImage={headerPic} bgStyle={{position: 'absolute'}} bgImageStyle={{backgroundPosition: 'center'}} strength={130} style={{height: '450px'}}>
                 <div className={styles.ToolbarBackground}>
                     <div className={styles.headerImage}> </div>
                     <div className={styles.Logo + " " + styles.DesktopOnly}>
@@ -29,8 +29,8 @@ class Toolbar extends Component {
                         <h1>VISIT MOLDOVA</h1>
                         <h2>We will help you cherry-pick the perfect tour.</h2>
                         <div className={styles.buttonContainer}>
-                            <button onClick={this.scrollToBuilder} className={styles.Button} style={{backgroundColor: '#FFFF', color: 'black'}}>Build a tour</button>
-                            <button className={styles.Button}>Find out more</button>
+                            <button onClick={this.scrollToBuilder} className={styles.Button} style={{backgroundColor: '#FFFF', color: 'black'}}>Select a package</button>
+                            <button className={styles.Button}>See our tours</button>
                         </div>
                     </div>
                     <nav className={styles.DesktopOnly}>
